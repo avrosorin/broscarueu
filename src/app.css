@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import '@fontsource/inter';
+
+:root {
+	--font-color: theme('colors.indigo.50');
+}
+
+html,
+body {
+	@apply h-full w-full text-[color:var(--font-color,theme('colors.indigo.50'))];
+}
