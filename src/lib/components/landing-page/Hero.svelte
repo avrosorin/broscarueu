@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { buttonStyles } from '$lib/styles';
 	import Typer from '../blocks/Typer.svelte';
 
 	const catchphrases = [
@@ -13,9 +14,14 @@
 	const highlights = ['Empowering', '8+ years', 'fullstack', 'Svelte', 'Microfotends', 'Web'];
 </script>
 
-<div class="my-32 grid grid-cols-1 gap-8 lg:my-44 lg:gap-16">
+<div class="my-24 grid grid-cols-1 lg:my-44">
 	<div class="flex items-center justify-center">Hey, I am Sorin Broscaru 👋</div>
-	<h1 class="min-h-24 w-full text-center text-2xl md:text-3xl lg:min-h-24 lg:px-20 lg:text-4xl">
+	<h1
+		class="mb-24 min-h-24 w-full text-center text-2xl md:text-3xl lg:min-h-24 lg:px-20 lg:text-4xl"
+	>
 		<Typer texts={catchphrases} highlight={highlights} />
 	</h1>
+	<div class="flex items-center justify-center">
+		<a href="/meetings" class="my-2 w-fit text-xl {buttonStyles.primary}"> Let’s Collaborate </a>
+	</div>
 </div>

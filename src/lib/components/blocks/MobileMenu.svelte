@@ -4,7 +4,7 @@
 	import { Menu } from 'svelte-lucide';
 
 	let { children }: { children: Snippet<[() => void | undefined]> } = $props();
-	let open = $state(true);
+	let open = $state(false);
 	const onclick = () => {
 		open = !open;
 	};

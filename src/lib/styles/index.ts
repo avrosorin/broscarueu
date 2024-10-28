@@ -1,6 +1,6 @@
 export const anchorStyles = {
-	menu: 'cursor-pointer hover:text-indigo-200 text-indigo-50 h-full flex items-center justify-center',
-	avro: 'cursor-pointer hover:text-[#2a83f9] text-indigo-200 flex items-center justify-center gap-x-1 hover:rounded-md sm:px-2 sm:hover:bg-slate-100/20 h-full'
+	menu: 'cursor-pointer hover:text-indigo-200 text-indigo-50 h-full flex items-center justify-center mx-2',
+	avro: 'cursor-pointer hover:text-[#2a83f9] text-indigo-200 flex items-center justify-center gap-x-1 hover:rounded-md px-2 sm:hover:bg-slate-100/20 h-full'
 };
 
 export const buttonStyles = {

@@ -20,12 +20,12 @@
 		{@render anchor('/', 'Sorin Broscaru', anchorStyles.menu)}
 	</div>
 	<div
-		class="flex items-center justify-end gap-[var(--menu-gap,theme('size.5'))] [--menu-gap:theme('size.5')]"
+		class="flex items-center justify-end gap-[var(--menu-gap,theme('size.5'))] [--menu-gap:theme('size.3')]"
 	>
 		<MobileMenu>
 			{#snippet children(onclick)}
-				{@render anchor('#projects', 'Projects', anchorStyles.menu, onclick)}
 				{@render anchor('#skills', 'Skills', anchorStyles.menu, onclick)}
+				{@render anchor('#solutions', 'Solutions', anchorStyles.menu, onclick)}
 				{@render avroAnchor(onclick)}
 			{/snippet}
 		</MobileMenu>
