@@ -7,7 +7,7 @@
 </script>
 
 <div
-	class="grid h-screen grid-rows-[auto,1fr,auto] overflow-auto scroll-smooth bg-gradient-to-tr from-slate-900 via-indigo-950 via-60% to-slate-950 font-sans"
+	class="flex h-screen flex-col overflow-auto scroll-smooth bg-gradient-to-tr from-slate-900 via-indigo-950 via-60% to-slate-950 font-sans"
 >
 	<Navigation />
 	<Main>
