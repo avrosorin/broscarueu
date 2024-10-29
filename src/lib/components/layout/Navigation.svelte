@@ -2,7 +2,7 @@
 	import { anchorStyles, buttonStyles } from '$lib/styles';
 	import { type Component } from 'svelte';
 	import MobileMenu from '../blocks/MobileMenu.svelte';
-	import { Send } from 'svelte-lucide';
+	import { Send } from 'lucide-svelte';
 </script>
 
 {#snippet anchor(href: string, text: string, clazz: string | null = null, onclick?: () => void)}

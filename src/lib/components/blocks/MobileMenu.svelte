@@ -1,7 +1,6 @@
 <script lang="ts">
-	import { onNavigate } from '$app/navigation';
 	import type { Snippet } from 'svelte';
-	import { Menu } from 'svelte-lucide';
+	import { Menu } from 'lucide-svelte';
 
 	let { children }: { children: Snippet<[() => void | undefined]> } = $props();
 	let open = $state(false);

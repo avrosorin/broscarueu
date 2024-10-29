@@ -1,4 +1,4 @@
-<script module>
+<script module lang="ts">
 	const highlightColor = 'text-[var(--typewriter-highlight-color)]';
 	const HIGHLIGHT_START_TAG = `<span class="${highlightColor}">`;
 	const HIGHLIGHT_END_TAG = '</span>';
