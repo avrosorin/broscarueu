@@ -24,5 +24,5 @@
 		name="twitter:description"
 		content="Explore scalable, optimized software solutions designed for modern business needs."
 	/>
-	<meta name="robots" content="noindex, nofollow" />
+	<meta name="robots" content="index, follow" />
 </svelte:head>
