@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { anchorStyles } from '$lib/styles';
 </script>
 
 <div class="min-h-[30vh] bg-stone-950 py-10 md:py-20">
@@ -13,9 +14,12 @@
 			<ul
 				class="flex flex-1 gap-5 text-xl max-md:flex-col max-md:items-center md:items-end md:justify-end"
 			>
-				<li>Linkedin</li>
-				<li>Github</li>
-				<li>About</li>
+				<li>
+					<a href="https://www.linkedin.com/in/broscaru-sorin-mihai/" class={anchorStyles.menu}
+						>Linkedin</a
+					>
+				</li>
+				<li><a href="https://github.com/avrosorin" class={anchorStyles.menu}>Github</a></li>
 			</ul>
 		</div>
 	</div>

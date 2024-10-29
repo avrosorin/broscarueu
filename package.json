@@ -17,13 +17,12 @@
 		"test": "vitest --run"
 	},
 	"dependencies": {
+		"@sveltejs/adapter-cloudflare": "^4.7.4",
 		"@sveltejs/enhanced-img": "^0.3.10",
 		"vite-imagetools": "^7.0.4"
 	},
 	"devDependencies": {
 		"@fontsource/inter": "^5.1.0",
-		"@sveltejs/adapter-auto": "^3.0.0",
-		"@sveltejs/adapter-cloudflare": "^4.7.4",
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^4.0.0",
 		"@tailwindcss/aspect-ratio": "^0.4.2",

@@ -20,4 +20,11 @@
 		{@render children(onclick)}
 	</div>
 </div>
-<button class="drop-shadow-sm sm:hidden" {onclick}><Menu /></button>
+<button
+	class="drop-shadow-sm sm:hidden"
+	{onclick}
+	aria-label="menu"
+	aria-roledescription="Open mobile menu"
+>
+	<Menu />
+</button>

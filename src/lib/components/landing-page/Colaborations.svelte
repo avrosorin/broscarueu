@@ -9,7 +9,9 @@
 
 <FancySplit cutoff={25}>Companies I have helped</FancySplit>
 <!-- class="grid grid-cols-5 place-items-center gap-2 max-md:grid-cols-1" -->
-<div class="flex items-center justify-center gap-x-14 max-md:flex-col max-md:gap-y-4">
+<div
+	class="my-4 flex items-center justify-center gap-x-14 max-md:flex-col max-md:gap-y-4 lg:my-8 xl:my-12"
+>
 	<Imc class="h-14 w-fit text-white" />
 	<Gameloft class="h-14 w-fit text-white" />
 	<Bmw class="h-14 w-fit text-white" />

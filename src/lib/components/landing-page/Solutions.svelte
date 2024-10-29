@@ -6,6 +6,7 @@
 	import dockerize from '$lib/assets/dockerize.png?enhanced';
 	import ci_cd from '$lib/assets/ci_cd.png?enhanced';
 	import type { Picture } from 'vite-imagetools';
+	import { buttonStyles } from '$lib/styles';
 </script>
 
 {#snippet item(image: Picture, title: string, description: string)}
@@ -70,5 +71,9 @@
 		'CI/CD Pipeline Setup and Automation',
 		'I set up CI/CD pipelines to automate testing, integration, and deployment, ensuring faster and more reliable releases. This process enables smooth updates across development and production environments, reducing errors and accelerating time-to-market.'
 	)}
-	<div></div>
+	<div class="flex items-center justify-center text-xl">
+		<a href="https://www.linkedin.com/in/broscaru-sorin-mihai/" class={buttonStyles.primary}
+			>Find me on Linkedin</a
+		>
+	</div>
 </div>
