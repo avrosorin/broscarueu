@@ -1,7 +1,6 @@
 # broscaru.eu
 
-![License](https://img.shields.io/github/license/avrosorin/broscarueu)
-![Last Commit](https://img.shields.io/github/last-commit/broscarueu/broscaru)
+![Last Commit](https://img.shields.io/github/last-commit/avrosorin/broscarueu?style=plastic)
 
 **A simple serverless app where I host my own things.**
 
