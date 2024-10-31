@@ -9,5 +9,5 @@
 
 html,
 body {
-	@apply h-full w-full text-[color:var(--font-color,theme('colors.indigo.50'))];
+	@apply h-screen w-screen bg-slate-900 text-[color:var(--font-color,theme('colors.indigo.50'))];
 }
