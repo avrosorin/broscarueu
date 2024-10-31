@@ -12,10 +12,10 @@
 <div
 	class="my-4 flex items-center justify-center gap-x-14 max-md:flex-col max-md:gap-y-4 lg:my-8 xl:my-12"
 >
-	<Imc class="h-14 w-fit text-white" />
-	<Gameloft class="h-14 w-fit text-white" />
-	<Bmw class="h-14 w-fit text-white" />
+	<Imc class="h-14 w-auto text-white" />
+	<Gameloft class="h-14 w-auto text-white" />
+	<Bmw class="h-14 w-auto text-white" />
 	<Visma class="h-fit w-40 text-white" />
-	<Airtame class="w-40 text-white" />
+	<Airtame class="h-auto w-40 text-white" />
 </div>
 <FancySplit cutoff={25}>with 1M+ lines of code</FancySplit>
