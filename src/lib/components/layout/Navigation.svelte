@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { anchorStyles, buttonStyles } from '$lib/styles';
-	import { type Component } from 'svelte';
 	import MobileMenu from '../blocks/MobileMenu.svelte';
 	import { Send } from 'lucide-svelte';
 </script>

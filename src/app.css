@@ -9,5 +9,5 @@
 
 html,
 body {
-	@apply flex w-screen flex-col bg-slate-900 text-[color:var(--font-color,theme('colors.indigo.50'))];
+	@apply text-[color:var(--font-color, theme("colors.indigo.50"))] flex w-screen flex-col bg-slate-900;
 }

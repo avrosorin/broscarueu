@@ -41,7 +41,7 @@
 	};
 	const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 	export async function* typewriter(text: string, highlights: string[], delay: number) {
-		text = text.trim();
+		text = typeof text === 'string' ? text.trim() : '';
 		const { highlightLocations } = getHighlights(text, highlights);
 
 		for (let i = 0; i < text.length; i++) {
@@ -84,6 +84,7 @@
 		return;
 	}
 	const getHighlightedTextHtml = (text: string, highlights: string[]) => {
+		if (typeof text !== 'string') return '';
 		text = text.trim();
 		const { highlight } = getHighlights(text, highlights);
 		const regex = new RegExp(`(${highlight.join('|')})`, 'g');
@@ -182,7 +183,7 @@
 		? className
 		: ''}"
 >
-	{#await output then output}
-		{@html output}
-	{/await}
+	<!-- eslint-disable svelte/no-at-html-tags -->
+	{@html output}
+	<!-- eslint-enable svelte/no-at-html-tags -->
 </span>
