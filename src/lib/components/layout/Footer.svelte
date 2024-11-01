@@ -1,8 +1,9 @@
 <script lang="ts">
 	import { anchorStyles } from '$lib/styles';
+	import { ArrowBigUp } from 'lucide-svelte';
 </script>
 
-<div class="min-h-[30vh] bg-stone-950 py-10 md:py-20">
+<div class="basis-[content] bg-stone-950 py-10 md:py-20">
 	<div class="container mx-auto grid h-fit grid-cols-2 gap-10 max-md:gap-6">
 		<div class="flex flex-col gap-10 max-lg:col-span-2">
 			<h1 class="text-xl md:text-2xl lg:text-4xl xl:text-6xl">Have a great software ideea?</h1>
@@ -20,6 +21,11 @@
 					</a>
 				</li>
 				<li><a href="https://github.com/avrosorin" class={anchorStyles.menu}>Github</a></li>
+				<li>
+					<a href="#top" class={anchorStyles.menu} aria-roledescription="Link back to the top bar"
+						><ArrowBigUp /></a
+					>
+				</li>
 			</ul>
 		</div>
 	</div>

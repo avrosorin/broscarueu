@@ -33,14 +33,11 @@
 {/snippet}
 
 <div class="prose grid grid-cols-9 py-12 dark:prose-invert max-md:grid-cols-1 max-md:py-5">
-	<h2 class="text-left max-md:text-center md:col-span-6">
+	<h2 class="text-left max-md:text-center md:col-span-6" id="solutions">
 		Development Solutions for scalable and efficient Web Applications
 	</h2>
 </div>
-<div
-	class="lg:gap-x-18 grid grid-cols-1 pb-20 md:grid-cols-2 md:gap-x-10 xl:gap-x-24"
-	id="solutions"
->
+<div class="lg:gap-x-18 grid grid-cols-1 pb-20 md:grid-cols-2 md:gap-x-10 xl:gap-x-24">
 	{@render item(
 		sass_fe,
 		'Scalable Frontend Development for SaaS Products',
