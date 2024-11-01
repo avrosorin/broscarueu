@@ -9,5 +9,11 @@
 
 html,
 body {
-	@apply flex w-screen flex-col bg-slate-900 text-[color:var(--font-color,theme("colors.indigo.50"))];
+	@apply flex h-full flex-1 grid-rows-1 flex-col overflow-auto scroll-smooth;
+}
+body {
+	@apply h-full bg-gradient-to-tr from-slate-900 via-indigo-950 via-60% to-slate-950 bg-[length:100%_100%] text-[color:var(--font-color,theme("colors.indigo.50"))];
+}
+html {
+	@apply bg-slate-900;
 }

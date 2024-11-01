@@ -9,7 +9,7 @@
 		class="flex flex-col items-center p-3 dark:prose-invert xl:h-auto xl:rounded-md xl:bg-zinc-600"
 	>
 		<div class="not-prose">
-			<img src={icon} {alt} sizes="80px" />
+			<img src={icon} {alt} sizes="80px" width="80" height="80" />
 		</div>
 		<p class="lg:leading-2">{contents}</p>
 	</div>
